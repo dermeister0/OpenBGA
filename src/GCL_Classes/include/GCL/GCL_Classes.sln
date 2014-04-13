@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Keyboard", "Keyboard\Keyboard.vcproj", "{9B510B8D-8FBB-408D-BE60-B1DAC6BFEBD0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Menu", "Menu\Menu.vcproj", "{6F94761D-773F-4729-9703-FF8735180E06}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mouse", "Mouse\Mouse.vcproj", "{E5552D7C-701D-4F7C-A18C-86972D93803F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MenuTest", "MenuTest\MenuTest.vcproj", "{203B5B5B-F311-41A4-99B1-70F62172BB35}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6F94761D-773F-4729-9703-FF8735180E06} = {6F94761D-773F-4729-9703-FF8735180E06}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{9B510B8D-8FBB-408D-BE60-B1DAC6BFEBD0}.Debug.ActiveCfg = Debug|Win32
+		{9B510B8D-8FBB-408D-BE60-B1DAC6BFEBD0}.Debug.Build.0 = Debug|Win32
+		{9B510B8D-8FBB-408D-BE60-B1DAC6BFEBD0}.Release.ActiveCfg = Release|Win32
+		{9B510B8D-8FBB-408D-BE60-B1DAC6BFEBD0}.Release.Build.0 = Release|Win32
+		{6F94761D-773F-4729-9703-FF8735180E06}.Debug.ActiveCfg = Debug|Win32
+		{6F94761D-773F-4729-9703-FF8735180E06}.Debug.Build.0 = Debug|Win32
+		{6F94761D-773F-4729-9703-FF8735180E06}.Release.ActiveCfg = Release|Win32
+		{6F94761D-773F-4729-9703-FF8735180E06}.Release.Build.0 = Release|Win32
+		{E5552D7C-701D-4F7C-A18C-86972D93803F}.Debug.ActiveCfg = Debug|Win32
+		{E5552D7C-701D-4F7C-A18C-86972D93803F}.Debug.Build.0 = Debug|Win32
+		{E5552D7C-701D-4F7C-A18C-86972D93803F}.Release.ActiveCfg = Release|Win32
+		{E5552D7C-701D-4F7C-A18C-86972D93803F}.Release.Build.0 = Release|Win32
+		{203B5B5B-F311-41A4-99B1-70F62172BB35}.Debug.ActiveCfg = Debug|Win32
+		{203B5B5B-F311-41A4-99B1-70F62172BB35}.Debug.Build.0 = Debug|Win32
+		{203B5B5B-F311-41A4-99B1-70F62172BB35}.Release.ActiveCfg = Release|Win32
+		{203B5B5B-F311-41A4-99B1-70F62172BB35}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

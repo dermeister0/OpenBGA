@@ -1,0 +1,8 @@
+/src/*.exe
+*.ilk
+*.ncb
+*.pdb
+*.suo
+/src/BGA_log.txt
+/src/Debug
+/src/GCL_Classes/lib

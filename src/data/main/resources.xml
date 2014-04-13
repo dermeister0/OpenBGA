@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<resources>
+	<section name="gfx">
+		<section name="game">
+			<sprite name="tiles">
+				<image file="tiles/tiles.png">
+					<grid pos="0,0" size="64,64" array="4,42" />
+				</image>
+				<image file="tiles/trees.png">
+					<grid pos="0,0" size="64,64" array="2,1" />
+				</image>	
+				<image file="tiles/shadow_v.png"/>			
+				<image file="tiles/shadow_h.png"/>	
+				<image file="tiles/shadow_c.png"/>	
+				<image file="tiles/shadow_bc.png"/>	
+			</sprite>
+		</section>
+		<section name="cars">
+			<sprite name="red" base_angle="90">
+				<image file="gfx/cars/red.png" />
+			</sprite>
+			<sprite name="blue" base_angle="90">
+				<image file="gfx/cars/blue.png" />
+			</sprite>
+			<sprite name="0" base_angle="90">
+				<image file="gfx/cars/blue.png" />
+			</sprite>
+			<sprite name="1" base_angle="90">
+				<image file="gfx/cars/green.png" />
+			</sprite>
+			<sprite name="2" base_angle="90">
+				<image file="gfx/cars/lightblue.png" />
+			</sprite>
+			<sprite name="3" base_angle="90">
+				<image file="gfx/cars/pink.png" />
+			</sprite>
+			<sprite name="4" base_angle="90">
+				<image file="gfx/cars/red.png" />
+			</sprite>
+			<sprite name="5" base_angle="90">
+				<image file="gfx/cars/yellow.png" />
+			</sprite>
+		</section>
+		<section name="bullets">
+			<sprite name="1">
+				<image file="gfx/bullets/1.png" />
+			</sprite>
+			<sprite name="2">
+				<image file="gfx/bullets/2.png" />
+			</sprite>
+			<sprite name="3">
+				<image file="gfx/bullets/3.png" />
+			</sprite>
+			<sprite name="4">
+				<image file="gfx/bullets/4.png" />
+			</sprite>
+			<sprite name="5">
+				<image file="gfx/bullets/5.png" />
+			</sprite>
+		</section>
+		<section name="wicons">
+			<sprite name="1">
+				<image file="gfx/wicons/1.png" />
+			</sprite>
+			<sprite name="2">
+				<image file="gfx/wicons/2.png" />
+			</sprite>
+			<sprite name="3">
+				<image file="gfx/wicons/3.png" />
+			</sprite>
+			<sprite name="4">
+				<image file="gfx/wicons/4.png" />
+			</sprite>
+			<sprite name="5">
+				<image file="gfx/wicons/5.png" />
+			</sprite>
+			<sprite name="6">
+				<image file="gfx/wicons/6.png" />
+			</sprite>			
+		</section>
+		<section name="ficons">
+			<sprite name="1">
+				<image file="gfx/ficons/1.png" />
+			</sprite>
+			<sprite name="2">
+				<image file="gfx/ficons/2.png" />
+			</sprite>
+			<sprite name="3">
+				<image file="gfx/ficons/3.png" />
+			</sprite>
+			<sprite name="4">
+				<image file="gfx/ficons/4.png" />
+			</sprite>
+			<sprite name="5">
+				<image file="gfx/ficons/5.png" />
+			</sprite>
+			<sprite name="6">
+				<image file="gfx/ficons/6.png" />
+			</sprite>			
+		</section>		
+		<section name="interface">
+			<sprite name="armor">
+				<image file="gfx/interface/armor.png" />
+			</sprite>
+			<sprite name="health">
+				<image file="gfx/interface/health.png" />
+			</sprite>
+		</section>
+		<section name="sprites">
+			<sprite name="aim">
+				<image file="gfx/sprites/aim_inactive.png" />
+				<image file="gfx/sprites/aim_active.png" />
+				<frame nr="0" x="10" y="10" />
+				<frame nr="1" x="10" y="10" />
+			</sprite>
+			<sprite name="item_place">
+				<image file="gfx/sprites/item_place.png" />
+				<translation origin="center"/>
+			</sprite>			
+		</section>
+		<section name="particles">
+			<sprite name="smoke">
+				<image file="gfx/particles/smoke.png" />
+				<translation origin="center"/>
+			</sprite>
+			<sprite name="green_smoke">
+				<image file="gfx/particles/green_smoke.png" />
+				<translation origin="center"/>
+			</sprite>			
+			<sprite name="blue_ring">
+				<image file="gfx/particles/blue_ring.png" />
+				<translation origin="center"/>
+			</sprite>				
+			<sprite name="explode">
+				<image file="gfx/particles/w3_explode_1.png" />
+				<image file="gfx/particles/w3_explode_2.png" />
+				<image file="gfx/particles/w3_explode_3.png" />
+				<image file="gfx/particles/w3_explode_4.png" />
+				<image file="gfx/particles/w3_explode_5.png" />
+				<image file="gfx/particles/w3_explode_6.png" />
+				<image file="gfx/particles/w3_explode_7.png" />
+				<image file="gfx/particles/w3_explode_8.png" />
+				<translation origin="center"/>
+				<color alpha=0.5 /> 
+			</sprite>			
+			<sprite name="respawn_explode">
+				<image file="gfx/particles/w3_explode_1.png" />
+				<image file="gfx/particles/w3_explode_1.png" />
+				<image file="gfx/particles/w3_explode_2.png" />
+				<image file="gfx/particles/w3_explode_2.png" />
+				<image file="gfx/particles/w3_explode_3.png" />
+				<image file="gfx/particles/w3_explode_3.png" />
+				<image file="gfx/particles/w3_explode_4.png" />
+				<image file="gfx/particles/w3_explode_4.png" />
+				<image file="gfx/particles/w3_explode_5.png" />
+				<image file="gfx/particles/w3_explode_5.png" />
+				<image file="gfx/particles/w3_explode_6.png" />
+				<image file="gfx/particles/w3_explode_6.png" />
+				<image file="gfx/particles/w3_explode_7.png" />
+				<image file="gfx/particles/w3_explode_7.png" />
+				<image file="gfx/particles/w3_explode_8.png" />
+				<image file="gfx/particles/w3_explode_8.png" />
+				<translation origin="center"/>
+				<color alpha=0.5 /> 
+			</sprite>				
+			<sprite name="w1_explode">
+				<image file="gfx/particles/w1_explode_1.png" />
+				<image file="gfx/particles/w1_explode_2.png" />
+				<image file="gfx/particles/w1_explode_3.png" />
+				<translation origin="center"/>
+				<color alpha=0.5 /> 
+			</sprite>				
+			<sprite name="w2_explode">
+				<image file="gfx/particles/w1_explode_1.png" />
+				<image file="gfx/particles/w1_explode_2.png" />
+				<image file="gfx/particles/w1_explode_3.png" />
+				<translation origin="center"/>
+				<color alpha=0.5 /> 
+			</sprite>	
+			<sprite name="w3_explode">
+				<image file="gfx/particles/w3_explode_1.png" />
+				<image file="gfx/particles/w3_explode_2.png" />
+				<image file="gfx/particles/w3_explode_3.png" />
+				<image file="gfx/particles/w3_explode_4.png" />
+				<image file="gfx/particles/w3_explode_5.png" />
+				<image file="gfx/particles/w3_explode_6.png" />
+				<image file="gfx/particles/w3_explode_7.png" />
+				<image file="gfx/particles/w3_explode_8.png" />
+				<translation origin="center"/>
+				<color alpha=0.5 /> 
+			</sprite>	
+			<sprite name="w4_explode">
+				<image file="gfx/particles/w4_explode_1.png" />
+				<image file="gfx/particles/w4_explode_2.png" />
+				<image file="gfx/particles/w4_explode_3.png" />
+				<translation origin="center"/>
+				<color alpha=0.5 /> 
+			</sprite>	
+			<sprite name="w5_explode">
+				<image file="gfx/particles/w5_explode_1.png" />
+				<image file="gfx/particles/w5_explode_1.png" />
+				<image file="gfx/particles/w5_explode_2.png" />
+				<image file="gfx/particles/w5_explode_2.png" />
+				<image file="gfx/particles/w5_explode_3.png" />
+				<image file="gfx/particles/w5_explode_3.png" />				
+				<translation origin="center"/>
+				<color alpha=0.5 /> 
+			</sprite>													
+		</section>
+		<section name="powerups">
+			<sprite name="items">
+				<image file="gfx/powerups/ammo1.png" />		
+				<image file="gfx/powerups/ammo2.png" />		
+				<image file="gfx/powerups/ammo3.png" />		
+				<image file="gfx/powerups/ammo4.png" />		
+				<image file="gfx/powerups/ammo5.png" />		
+				
+				<image file="gfx/powerups/armor25.png" />		
+				<image file="gfx/powerups/armor100.png" />	
+					
+				<image file="gfx/powerups/health5.png" />	
+				<image file="gfx/powerups/health10.png" />		
+				<image file="gfx/powerups/health25.png" />		
+				<image file="gfx/powerups/health100.png" />	
+							
+				<image file="gfx/powerups/spcustom.png" />		
+				<image file="gfx/powerups/spred.png" />		
+				<image file="gfx/powerups/spblue.png" />		
+				
+				<image file="gfx/powerups/bonus1.png" />
+				<image file="gfx/powerups/bonus2.png" />
+				<image file="gfx/powerups/bonus3.png" />
+				<image file="gfx/powerups/bonus4.png" />
+				<image file="gfx/powerups/bonus5.png" />
+				<image file="gfx/powerups/bonus6.png" />
+				
+				<translation origin="center"/>
+			</sprite>
+		</section>
+	</section>
+	<section name="FontGlyphs">
+		<sprite name="font_misc">
+			<image file="fonts/font_misc.png">
+				<alpha />
+			</image>
+		</sprite>
+		<sprite name="font_interface">
+			<image file="fonts/font_interface.png">
+				<alpha />
+			</image>
+		</sprite>
+		<sprite name="font_menu">
+			<image file="fonts/font_menu.png">
+				<alpha />
+			</image>
+		</sprite>		
+	</section>
+	<section name="fonts">
+		<font name="misc">
+			<bitmap glyphs="FontGlyphs/font_misc" spacelen="4" letters="!&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz[\]^_`{|}~+€§™©-®№АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя" />
+		</font>
+		<font name="interface">
+			<bitmap glyphs="FontGlyphs/font_interface" spacelen="4" letters="!&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz[\]^_`{|}~+€§™©_®№АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя" />
+		</font>
+		<font name="menu">
+			<bitmap glyphs="FontGlyphs/font_menu" spacelen="4" letters="!&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz[\]^_`{|}~+€§™©®№АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя" />
+		</font>		
+		<font name="about">
+			<system font_name="arial" height="30" /> 
+		</font>		
+	</section>
+	<section name="menu">
+		<sprite name="about">
+			<image file="menu/buttons/about1.png" />
+			<image file="menu/buttons/about2.png" />
+			<image file="menu/buttons/about3.png" />
+		</sprite>
+		<sprite name="back">
+			<image file="menu/buttons/back1.png" />
+			<image file="menu/buttons/back2.png" />
+			<image file="menu/buttons/back3.png" />
+		</sprite>
+		<sprite name="bglist">
+			<image file="menu/buttons/bglist1.png" />
+			<image file="menu/buttons/bglist2.png" />
+			<image file="menu/buttons/bglist3.png" />
+		</sprite>
+		<sprite name="exit">
+			<image file="menu/buttons/exit1.png" />
+			<image file="menu/buttons/exit2.png" />
+			<image file="menu/buttons/exit3.png" />
+		</sprite>
+		<sprite name="game">
+			<image file="menu/buttons/game1.png" />
+			<image file="menu/buttons/game2.png" />
+			<image file="menu/buttons/game3.png" />
+		</sprite>
+		<sprite name="help">
+			<image file="menu/buttons/help1.png" />
+			<image file="menu/buttons/help2.png" />
+			<image file="menu/buttons/help3.png" />
+		</sprite>
+		<sprite name="options">
+			<image file="menu/buttons/options1.png" />
+			<image file="menu/buttons/options2.png" />
+			<image file="menu/buttons/options3.png" />
+		</sprite>
+		<sprite name="createserver">
+			<image file="menu/buttons/createserver1.png" />
+			<image file="menu/buttons/createserver2.png" />
+			<image file="menu/buttons/createserver3.png" />
+		</sprite>
+		<sprite name="connectserver">
+			<image file="menu/buttons/connectserver1.png" />
+			<image file="menu/buttons/connectserver2.png" />
+			<image file="menu/buttons/connectserver3.png" />
+		</sprite>
+		<sprite name="next">
+			<image file="menu/buttons/next1.png" />
+			<image file="menu/buttons/next2.png" />
+			<image file="menu/buttons/next3.png" />
+		</sprite>
+		<sprite name="deathmatch">
+			<image file="menu/buttons/deathmatch1.png" />
+			<image file="menu/buttons/deathmatch2.png" />
+			<image file="menu/buttons/deathmatch3.png" />
+		</sprite>
+		<sprite name="teamdeathmatch">
+			<image file="menu/buttons/teamdeathmatch1.png" />
+			<image file="menu/buttons/teamdeathmatch2.png" />
+			<image file="menu/buttons/teamdeathmatch3.png" />
+		</sprite>
+		<sprite name="switchteam">
+			<image file="menu/buttons/switchteam1.png" />
+			<image file="menu/buttons/switchteam2.png" />
+			<image file="menu/buttons/switchteam3.png" />
+		</sprite>		
+		<sprite name="pointer">
+			<image file="menu/pointer.png" />
+		</sprite>
+		<sprite name="title">
+			<image file="menu/title.png" />
+		</sprite>
+		<sprite name="darktitle">
+			<image file="menu/darktitle.png" />
+		</sprite>
+		<sprite name="devby">
+			<image file="menu/devby.png" />
+		</sprite>
+		<sample name="logo" file="menu/logo.ogg" />
+		<sample name="menu_theme" file="menu/menu_theme.ogg" />
+	</section>
+	<section name="intro">
+		<surface name="heavysoft" file="intro/heavysoft.jpg" />
+		<sample name="intro" file="intro/heavysoft.wav" />
+		<sprite name="copyright"> 
+			<image file="intro/copyright.jpg" />	
+		</sprite>
+	</section>
+	<section name="sfx">
+		<section name="weapons">
+			<sample name="1" file="sfx/weapons/1.wav" />
+			<sample name="2" file="sfx/weapons/2.wav" />
+			<sample name="3" file="sfx/weapons/3.wav" />
+			<sample name="4" file="sfx/weapons/4.wav" />
+			<sample name="5" file="sfx/weapons/5.wav" />
+		</section>
+		<section name="misc">
+			<sample name="hit" file="sfx/misc/hit.wav" />
+			<sample name="respawn" file="sfx/misc/respawn.wav" />
+			<sample name="engine" file="sfx/misc/engine.wav" />
+		</section>		
+		<section name="effects">
+			<sample name="explode" file="sfx/effects/explode.wav" />
+		</section>
+		<section name="items">
+			<sample name="haste" file="sfx/items/haste.ogg" />
+			<sample name="quaddamage" file="sfx/items/quaddamage.ogg" />
+			<sample name="invisibility" file="sfx/items/invisibility.ogg" />
+			<sample name="regeneration" file="sfx/items/regeneration.ogg" />
+			
+			<sample name="ammo" file="sfx/items/ammo.wav" />
+			<sample name="armor" file="sfx/items/armor.wav" />
+			<sample name="health" file="sfx/items/health.wav" />
+		</section>		
+	</section>
+</resources>
